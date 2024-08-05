@@ -1,0 +1,75 @@
+.match-card {
+  background-color: #0f172a;
+  border-radius: 8px;
+  list-style-type: none;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 30%;
+    min-height: 400px;
+  }
+}
+
+.match-card-team-logo {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-team-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.match-card-team-name {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-team-name {
+    font-size: 24px;
+  }
+}
+
+.match-card-result {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-result {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+}
+
+.match-status {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.won {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+}
